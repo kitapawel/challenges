@@ -5,12 +5,12 @@ public class FindMinMax {
 	public static void main(String[] args) {
 		FindMinMax object = new FindMinMax();
 		Integer[] testArray = { 111,78, 66, 2, 59, 6, 33, 1, 55, 1024, 1000000, 22, -1, -66, 1214535242 };
-		object.FindMinium(testArray);
+		object.FindMinimum(testArray);
 		object.FindMaximum(testArray);
 	}
 
 	
-	void FindMinium(Integer arr[])
+	void FindMinimum(Integer arr[])
     {   
 		int n = arr.length;
 		Integer min = arr[0];
