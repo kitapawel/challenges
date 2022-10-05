@@ -47,8 +47,6 @@ public class StringCharCounter {
 		temp.append(map4.replace("}", ""));
 
 		String result = temp.toString();
-	    return result;
-		
+	    return result;		
 	}
-
 }
