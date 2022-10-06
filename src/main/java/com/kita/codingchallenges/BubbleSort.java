@@ -15,7 +15,7 @@ public class BubbleSort {
 		}
 	}
 	
-	void Sort(Integer arr[])
+	void Sort(Integer[] arr)
     {
         int n = arr.length;
         
