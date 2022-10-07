@@ -10,6 +10,9 @@ public class FibonacciNumbers {
 		int counter = 20;
 		
 		printFibonacci(counter);
+		printFibonacci(5);
+		//System.out.println(printFibonacciMethod2(17));
+		//System.out.println(printFibonacciMethod2(5));
 		
 	}
 	
@@ -33,8 +36,14 @@ public class FibonacciNumbers {
 		
 		System.out.println(fibArray);
 	}
-
-	
-	
+//
+//	public static int printFibonacciMethod2(int n) {
+//		 if( n<=1){
+//		      return n;
+//		    }else{
+//		      return n = printFibonacciMethod2(n-2) + printFibonacciMethod2(n-1);
+//		    }
+//	}
+//	
 
 }
