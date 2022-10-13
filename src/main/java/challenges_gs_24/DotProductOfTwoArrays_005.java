@@ -1,3 +1,4 @@
+package challenges_gs_24;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
