@@ -1,6 +1,6 @@
 package challenges_gs_24;
 
-public class IsPowerOf10 {
+public class IsPowerOf10_009 {
 
 	public static void main(String[] args) {		
 		int num1 = 100;

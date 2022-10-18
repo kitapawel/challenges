@@ -2,7 +2,7 @@ package challenges_gs_24;
 
 import java.util.Arrays;
 
-public class LongestUniformSubstring {
+public class LongestUniformSubstring_010 {
 
 	public static void main(String[] args) {
 		String test = "";
