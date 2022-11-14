@@ -3,6 +3,8 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+// for 2 arrays [1,2,3] = a1 * b1 + a2 * b2 + a3 * b3
+
 public class DotProductOfTwoArrays_005 {
 	
 	public static void main(String[] args) {

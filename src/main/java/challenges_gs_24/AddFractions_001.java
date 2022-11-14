@@ -1,6 +1,9 @@
 package challenges_gs_24;
 
 //Add two fractions where each fraction is an array
+//add/remove = 1/2 +1/3 = 1*3/2*3 + 1*2/3*2 = 3/6 + 2/6
+//multiply = 1/2 * 1/3 = 1*1/2*3
+//divide = 1/2 * 1/3 = 1/2 * 3/1
 
 public class AddFractions_001 {
 	public static void main(String[] args) {
@@ -11,10 +14,13 @@ public class AddFractions_001 {
 		int[] fraction2b = {5,6};
 		int[] fraction3a = {1,4};
 		int[] fraction3b = {2,3};
+		int[] fraction4a = {2,10};
+		int[] fraction4b = {4,20};
 		
 		addFractions(fraction1a, fraction1b);
 		addFractions(fraction2a, fraction2b);
 		addFractions(fraction3a, fraction3b);
+		addFractions(fraction4a, fraction4b);
 
 	}
 
@@ -33,6 +39,8 @@ public class AddFractions_001 {
 			denominator = den1 * den2;
 			numerator = den1 * num2 + den2 * num1;
 		}
+		
+		//reduce fractions
 		if (numerator > denominator) {
 			x = numerator;
 		} else {
@@ -47,5 +55,6 @@ public class AddFractions_001 {
 		System.out.println("fraction 1: " + num1 + "/" + den1 + " + fraction 2: " + num2 + "/" + den2 + " equals "
 				+ numerator + "/" + denominator);
 	}
+
 
 }

@@ -20,7 +20,7 @@ public class NewtonSqrt__021 {
 		
 		System.out.println("Square root approximation of 323187 using Newton's method in 2 iterations is: " + approximateRoot(323187,2));
 		System.out.println("Square root approximation of 323187 using Newton's method in 3 iterations is: " + approximateRoot(323187,3));
-		System.out.println("Square root approximation of 323187 using Newton's method in 6 iterations is: " + approximateRoot(323187,11));
+		System.out.println("Square root approximation of 323187 using Newton's method in 11 iterations is: " + approximateRoot(323187,11));
 	}
 	
 	public static double approximateRoot(double num, int iter) {

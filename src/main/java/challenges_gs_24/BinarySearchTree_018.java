@@ -18,9 +18,9 @@ public class BinarySearchTree_018 {
 	// Represent the root of binary tree
 	public Node root;
 
-	public BinarySearchTree_018(){  
-          root = null;  
-      }
+	public BinarySearchTree_018() {
+		root = null;
+	}
 
 	// insert() will add new node to the binary search tree
 	public void insert(int data) {
@@ -130,27 +130,31 @@ public class BinarySearchTree_018 {
 
 		}
 	}
-	
-    void preorderTraversal(Node node)  
-    {  
-        if (node == null)  
-            return;  
-        System.out.print(node.data + " ");  
-        preorderTraversal(node.left);  
-        preorderTraversal(node.right);       
 
-    }   
-    void preorderTraversal() { preorderTraversal(root); }  
- 
-    void postorderTraversal(Node node)
-    {
-        if (node == null)
-            return; 
-        postorderTraversal(node.left); 
-        postorderTraversal(node.right); 
-        System.out.print(node.data + " ");
-    } 
-    void postorderTraversal() { postorderTraversal(root); }
+	void preorderTraversal(Node node) {
+		if (node == null)
+			return;
+		System.out.print(node.data + " ");
+		preorderTraversal(node.left);
+		preorderTraversal(node.right);
+
+	}
+
+	void preorderTraversal() {
+		preorderTraversal(root);
+	}
+
+	void postorderTraversal(Node node) {
+		if (node == null)
+			return;
+		postorderTraversal(node.left);
+		postorderTraversal(node.right);
+		System.out.print(node.data + " ");
+	}
+
+	void postorderTraversal() {
+		postorderTraversal(root);
+	}
 
 	public static void main(String[] args) {
 		BinarySearchTree_018 bt = new BinarySearchTree_018();

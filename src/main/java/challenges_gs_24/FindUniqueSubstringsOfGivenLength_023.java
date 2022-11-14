@@ -36,8 +36,7 @@ public class FindUniqueSubstringsOfGivenLength_023 {
 			String result = substring.toString();			
 			parts.add(result);
 		}
-		
-		System.out.println(parts);
+
 		return parts;
 	}
 
